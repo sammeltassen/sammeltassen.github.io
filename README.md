@@ -1,2 +1,0 @@
-# sammeltassen.github.io
-Sammeltassen
