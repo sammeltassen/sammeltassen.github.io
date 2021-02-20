@@ -5,7 +5,7 @@ type: design studio
 org: Faculty of Architecture and the Built Environment, Delft University of Technology
 date: 2016-08-01
 ---
-## Course description
+## Course description:
 
 This MSc2 studio focuses on the tradition of plaster casts and their architectural presentation. Participants will trace the genealogy of casts, take on the process of making and replicating casts, study the history of their collection and presentation, and finally propose a new ‘cast court’ for an existing collection in the Netherlands.
 

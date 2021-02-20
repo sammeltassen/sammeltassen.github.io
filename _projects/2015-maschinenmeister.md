@@ -5,4 +5,5 @@ type: article
 org: "Jantje Engels & Marius Grootveld (eds.) Building upon Building. Amsterdam: Architectura et Amicitia."
 date: 2015-01-01
 slug: maschinenmeister
+hide: true
 ---
