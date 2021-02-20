@@ -4,12 +4,12 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<title>{{ page.title }} - {{ site.title }}</title>
+	<title>{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}</title>
 	<meta name="title" content="{{ site.title }}">
 	<meta name="author" content="Jules Schoonman">
-	<meta name="description" content="Personal website of architect, exhibition maker and researcher Jules Schoonman">
+	<meta name="description" content="Personal website of architect, exhibition maker and scholar Jules Schoonman">
 	<meta name="keywords" content="architecture, Schinkel, Berlin, diorama, mansholt, stucco, Max Raphael">
-	<meta property="og:image" content="{{ '/assets/img/image.jpg' | absolute_url }}">
+	<meta property="og:image" content="{{ '/assets/img/image-alt.jpg' | absolute_url }}">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
 	<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
