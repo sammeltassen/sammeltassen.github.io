@@ -1,5 +1,5 @@
 ---
-title: "Design by Choice: The Origins of Masscustomization in Europe"
+title: "Design by Choice: The Origins of Mass Customization in Europe"
 type: exhibition
 org: Bureau Europa
 date: 2015-10-10 – 2016-01-17
