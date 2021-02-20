@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>{{ page.title }} - {{ site.title }}</title>
+	<meta name="title" content="{{ site.title }}">
+	<meta name="author" content="Jules Schoonman">
+	<meta name="description" content="Personal website of architect, exhibition maker and researcher Jules Schoonman">
+	<meta name="keywords" content="architecture, Schinkel, Berlin, diorama, mansholt, stucco, Max Raphael">
+	<meta property="og:image" content="{{ '/assets/img/image.jpg' | absolute_url }}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+	<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+</head>
+  
+<body class="terminal">
+	<div class="container">
+		<div class="terminal-nav">
+    		<div class="terminal-logo">
+      			<div class="logo terminal-prompt"><a href="{{ site.url }}" class="no-style">{{ site.title }}</a></div>
+			</div>
+			<nav class="terminal-menu">
+				<ul>
+					<li><a class="menu-item" href="{{ '/contact' | relative_url }}">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		{{ content }}
+		<p>All rights reserved.<br>
+		This website is made with <a href="https://jekyllrb.com">Jekyll</a>,  
+		<a href="https://terminalcss.xyz">Terminal CSS</a>, 
+		<a href="https://listjs.com">List.js</a>, 
+		<a href="http://mozilla.github.io/pdf.js/">PDF.js</a> and 
+		<a href="https://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a>.</p>
+	</div>
+  </body>
+</html>

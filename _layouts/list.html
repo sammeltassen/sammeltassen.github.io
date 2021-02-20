@@ -1,0 +1,77 @@
+---
+layout: main
+---
+{{ content }}
+
+<div id="projects">
+	<p><label>Search:</label>
+	<input class="search" id="text" name="text" type="text" required="" minlength="1" placeholder="query"></p>
+	<label>Sort by:</label>
+	<button class="sort btn btn-default" data-sort="title">title</button>
+	<button class="sort btn btn-default" data-sort="date">year</button>
+	<button class="sort btn btn-default" data-sort="type">type</button>
+	<ul class="list">
+		{% assign sorted = site.projects | sort: 'date' | reverse %}
+		{% for item in sorted %}
+			<li class="list"><hr>
+				<p><span class="date">{{ item.date | truncate: 4, "" }}</span> | <span class="type">{{ item.type | upcase }}</span></p>
+				<p>{% if item.external %}
+				<a href="{{ item.link }}"><span class="title">{{ item.title }}</span></a> &#127760;
+				{% elsif item.hide %}
+				<span style="color: #62c4ff"><span class="title">{{ item.title }}</span></span>
+				{% else %}
+				<a href="{{ item.url }}" class="title">{{ item.title }}</a>
+				{% endif %}
+				{% if item.ongoing %}&#11088;{% endif %}</p>
+				<p class="organisation">
+				{% if item.type == "design studio" or item.type == "seminar" or item.type == "tutorials" %}
+				&#127970; 
+				{% elsif item.type == "lecture" %}
+				&#128227; 
+				{% elsif item.type == "exhibition" %}
+				&#127963; 
+				{% elsif item.type == "article" %}
+				&#128196;
+				{% elsif item.type == "website" %}
+				&#128190; 
+				{% elsif item.type == "research" %}
+				&#128269;
+				{% else %}
+				&#127970; 
+				{% endif %}
+				{{ item.org }}</p>
+				{% if item.pdf %}
+					{% for pdf in item.pdf %}
+					<p><a class="pdf" href="/assets/js/pdfjs/web/viewer.html?file=/assets/pdf/{{ pdf.filename }}">
+					{{ pdf.title }}</a> &#128206; 
+						{% if pdf.lang contains "nl" %}
+						<sup>NL</sup>
+						{% endif %}
+						{% if pdf.lang contains "en" %}
+						<sup>EN</sup>
+						{% endif %}
+						{% if pdf.lang contains "de" %}
+						<sup>DE</sup>
+						{% endif %}
+					</p>
+					{% endfor %}
+				{% endif %}
+			</li>
+		{% endfor %}
+	</ul>
+	<hr>
+</div>
+
+<script type="application/javascript">
+	var options = {
+		valueNames: [ 'title', 'date', 'type', 'organisation' ]
+	};
+	
+	var projectsList = new List('projects', options);
+	
+	$(document).ready(function() {
+	  $('.pdf').magnificPopup({
+	  type:'iframe'
+	  });
+	});
+</script>
