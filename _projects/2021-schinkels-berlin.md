@@ -2,7 +2,7 @@
 layout: item
 title: "Schinkel's Berlin"
 type: lecture
-org: Berlage Center for Advanced Studies in Architecture and Urban Design
+org: The Berlage Center for Advanced Studies in Architecture and Urban Design
 date: 2021-2-12
 slug: schinkels-berlin
 ---
