@@ -3,7 +3,7 @@ layout: item
 title: "Cast Courts, Interiors Buildings Cities (MSc II Research Studio together with Caspar Frenken)"
 type: design studio
 org: Faculty of Architecture and the Built Environment, Delft University of Technology
-date: 2016-08-01
+date: 2016-09-01
 ---
 ## Course description:
 

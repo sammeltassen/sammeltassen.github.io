@@ -56,6 +56,19 @@ layout: main
 					</p>
 					{% endfor %}
 				{% endif %}
+				{% if item.iterations %}
+					{% if item.iterations[1] != nil %}
+						{% if item.type == "exhibition" %}
+							<p><em>Venues: 
+							{% else %}
+							<p><em>Iterations: 							
+						{% endif %}
+						{% for iteration in item.iterations %}
+							<span class="iteration">{{ iteration }}</span>
+						{% endfor %}
+						</em></p>
+					{% endif %}
+				{% endif %}
 			</li>
 		{% endfor %}
 	</ul>

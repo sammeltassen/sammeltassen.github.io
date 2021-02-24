@@ -3,7 +3,7 @@ layout: item
 title: "Villa van Waning"
 type: design studio
 org: Rotterdamse Academie van Bouwkunst
-date: 2018-01-01
+date: 2018-02-01
 ---
 ## Course description:
 

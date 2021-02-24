@@ -3,7 +3,7 @@ layout: item
 title: "Coriovallum"
 type: design studio
 org: Rotterdamse Academie van Bouwkunst
-date: 2017-01-01 
+date: 2017-02-01 
 ---
 ## Course description:
 

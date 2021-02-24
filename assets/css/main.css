@@ -38,6 +38,11 @@ li.list, li>ul>li.list { padding-left: 0; }
      height: 100%;
 }
 
+.iteration {
+	background-color: var(--code-bg-color);
+
+}
+
 .components-grid
 {
 	display: grid;
