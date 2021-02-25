@@ -57,11 +57,13 @@ layout: main
 					{% endfor %}
 				{% endif %}
 				{% if item.iterations %}
-					{% if item.iterations[1] != nil %}
+					{% if item.iterations.size > 1 %}
 						{% if item.type == "exhibition" %}
-							<p><em>Venues: 
+							<p><em>{{ item.iterations.size }} venues: 
+							{% elsif item.type == "lecture" or item.type == "seminar" %}
+							<p><em>{{ item.iterations.size }} semesters: 
 							{% else %}
-							<p><em>Iterations: 							
+							<p><em>{{ item.iterations.size }} iterations: 
 						{% endif %}
 						{% for iteration in item.iterations %}
 							<span class="iteration">{{ iteration }}</span>
