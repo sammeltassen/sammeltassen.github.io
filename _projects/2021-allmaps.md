@@ -1,7 +1,7 @@
 ---
 layout: item
 title: "Allmaps"
-type: website
+type: digital
 org: TU Delft Library / Bert Spaan / IIIF Community
 date: 2021-4-23
 slug: allmaps

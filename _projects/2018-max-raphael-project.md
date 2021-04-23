@@ -1,7 +1,7 @@
 ---
 layout: item
 title: "Max Raphael Project"
-type: website
+type: digital
 org: Self-published
 date: 2018-01-01
 slug: max-Raphael
