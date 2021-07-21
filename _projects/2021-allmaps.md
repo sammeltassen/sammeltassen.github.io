@@ -13,3 +13,7 @@ The IIIF Maps Technical Specification Group is working on an extension to annota
 Allmaps is an open source project initiated by [Bert Spaan](https://bertspaan.nl) in collaboration with Delft University of Technology Library and Leiden University Libraries.
 
 [https://allmaps.org](https://allmaps.org)
+
+Watch the presentation on the IIIF 2021 Annual Conference (22-6-2021):
+
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/mefhobEAPWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
