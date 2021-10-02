@@ -15,5 +15,4 @@ Presentation as part of the online symposium "Building for Autos: Architecture A
 
 > This online afternoon symposium will explore how the appearance of the automobile created new building types throughout the twentieth century. Topics will include the history of the filling station, from curbside pumps to offering full-service amenities; the emergence of the parking garage in relation to the invention of reinforced concrete; how the development of highway systems and rising car travel led to rethinking the hotel for motorists; the relations between the expansion of car ownership, the suburban boom, and the births of the business park and the drive-in facility for religious services.
 
-
-My presentation included an overview of multistorey parkings in Rotterdam (and their magnificent rooftop views), and analyses of the parking garage of the recently constructed Van der Valk Hotel in Amsterdam-Zuid and the Garage Ponthieu by Auguste Perret (1906/07).
+My presentation included an overview of multistorey parkings in Rotterdam (and their magnificent rooftop views), and analyses of the parking garage of the recently constructed Van der Valk Hotel in Amsterdam-Zuid by Wiel Arets Architects and the demolished Garage Ponthieu in Paris by Auguste Perret (1906/07).
