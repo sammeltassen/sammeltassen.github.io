@@ -8,7 +8,7 @@ slug: mansholt-landschap-in-perspectief
 link: https://www.bureau-europa.nl/mansholt-landschap-in-perspectief/
 pdf:
   - title: Exhibition catalogue
-    filename: O1303-03 D34-CCCD-Final.pdf
+    filename: O1303-03-D34-CCCD-Final.pdf
     pages: 23
     lang: ['nl', 'en']
 external: true

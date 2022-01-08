@@ -42,7 +42,7 @@ layout: main
 				{{ item.org }}</p>
 				{% if item.pdf %}
 					{% for pdf in item.pdf %}
-					<p><a class="pdf" href="/assets/js/pdfjs/web/viewer.html?file=/assets/pdf/{{ pdf.filename }}">
+					<p><a class="pdf" href="/assets/js/pdfjs/web/viewer.html?file={{ site.gcs_prefix | url_encode }}{{ pdf.filename | url_encode }}{{ site.gcs_postfix | url_encode }}">
 					{{ pdf.title }}</a> &#128206; 
 						{% if pdf.lang contains "nl" %}
 						<sup>NL</sup>

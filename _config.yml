@@ -1,6 +1,8 @@
 url: "https://sammeltassen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Sammeltassen" # the name of your site, e.g. ACME Corp.
+gcs_prefix: "https://storage.googleapis.com/storage/v1/b/sammeltassen.nl/o/sammeltassen%2F"
+gcs_postfix: "?alt=media"
 collections:
   projects:
     output: true
