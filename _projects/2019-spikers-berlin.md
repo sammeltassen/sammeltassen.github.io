@@ -5,6 +5,6 @@ type: digital
 org: Self-published
 date: 2019-04-26
 slug: spikers-berlin
-link: https://spikers.berlin
+link: https://www.spikers-berlin.org
 external: true
 ---
