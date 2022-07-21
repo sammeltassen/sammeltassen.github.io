@@ -6,8 +6,6 @@ org: Self-published
 date: 2022-07-21
 slug: dit-is-geen-museum
 ---
-# Dit is geen museum. Over het Depot Boijmans Van Beuningen
-
 ‘Hier midden in het park (…) daar kun je niet zomaar een blok beton neerzetten. Dat zou een gruwel zijn.’ Aldus Winy Maas in het Jeugdjournaal over het Depot van Museum Boijmans van Beuningen in het Rotterdamse Museumpark.
 
 Maas heeft geen moeite de paradox van het gebouw in woorden te vatten. Maandenlang zijn we getuige geweest van de bouw van de betonnen kolos, die inmiddels dankzij de bedekking met duizenden convexe spiegels dun en immaterieel is geworden. Het gebouw als verschijning is een omkering van het gebouw als constructie. Waar het licht lijkt (in het entreegebied) vereist het de meeste wapening om de krachten te kunnen opvangen. Waar het zwaar lijkt (in het centrale trappenhuis) is het een lege huls.
