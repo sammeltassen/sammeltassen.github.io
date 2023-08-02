@@ -8,7 +8,7 @@ slug: georeferencing-building-plans
 link: https://www.tudelft.nl/evenementen/2022/bk/conferentie-building-data-architecture-memory-and-new-imagination
 pdf:
   - title: Article from conference proceedings
-    filename: 2022_jbsc_proceedings_web_22-11-163-schoonman
+    filename: 2022_jbsc_proceedings_web_22-11-163-schoonman.pdf
     pages: 8
     lang: ['en']
 ---
